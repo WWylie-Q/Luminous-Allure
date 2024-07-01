@@ -1,0 +1,2042 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1518600654093-2a24cddafa38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1417&q=80") no-repeat center center fixed;
+  background-size: cover;
+}
+
+* {
+  transition: all 0.5s ease;
+}
+
+.canvas {
+  height: 100%;
+  width: 100%;
+}
+.canvas .star:nth-child(1) {
+  margin-left: 752px;
+  margin-top: 226px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.005s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(2) {
+  margin-left: 843px;
+  margin-top: 630px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.01s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(3) {
+  margin-left: 121px;
+  margin-top: 281px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.015s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(4) {
+  margin-left: 72px;
+  margin-top: 302px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.02s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(5) {
+  margin-left: 788px;
+  margin-top: 296px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.025s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(6) {
+  margin-left: 505px;
+  margin-top: 676px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.03s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(7) {
+  margin-left: 610px;
+  margin-top: 283px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.035s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(8) {
+  margin-left: 390px;
+  margin-top: 495px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.04s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(9) {
+  margin-left: 1263px;
+  margin-top: 593px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.045s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(10) {
+  margin-left: 944px;
+  margin-top: 84px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.05s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(11) {
+  margin-left: 646px;
+  margin-top: 796px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.055s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(12) {
+  margin-left: 401px;
+  margin-top: 39px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.06s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(13) {
+  margin-left: 520px;
+  margin-top: 478px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.065s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(14) {
+  margin-left: 1146px;
+  margin-top: 15px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.07s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(15) {
+  margin-left: 350px;
+  margin-top: 367px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.075s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(16) {
+  margin-left: 1312px;
+  margin-top: 51px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.08s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(17) {
+  margin-left: 352px;
+  margin-top: 207px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.085s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(18) {
+  margin-left: 75px;
+  margin-top: 651px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.09s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(19) {
+  margin-left: 620px;
+  margin-top: 110px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.095s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(20) {
+  margin-left: 72px;
+  margin-top: 247px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.1s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(21) {
+  margin-left: 208px;
+  margin-top: 704px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.105s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(22) {
+  margin-left: 682px;
+  margin-top: 180px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.11s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(23) {
+  margin-left: 1106px;
+  margin-top: 295px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.115s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(24) {
+  margin-left: 791px;
+  margin-top: 230px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.12s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(25) {
+  margin-left: 280px;
+  margin-top: 644px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.125s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(26) {
+  margin-left: 1254px;
+  margin-top: 462px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.13s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(27) {
+  margin-left: 351px;
+  margin-top: 133px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.135s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(28) {
+  margin-left: 1326px;
+  margin-top: 703px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.14s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(29) {
+  margin-left: 1076px;
+  margin-top: 281px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.145s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(30) {
+  margin-left: 183px;
+  margin-top: 79px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.15s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(31) {
+  margin-left: 238px;
+  margin-top: 682px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.155s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(32) {
+  margin-left: 1382px;
+  margin-top: 198px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.16s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(33) {
+  margin-left: 1350px;
+  margin-top: 155px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.165s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(34) {
+  margin-left: 796px;
+  margin-top: 402px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.17s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(35) {
+  margin-left: 524px;
+  margin-top: 74px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.175s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(36) {
+  margin-left: 953px;
+  margin-top: 406px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.18s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(37) {
+  margin-left: 1290px;
+  margin-top: 359px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.185s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(38) {
+  margin-left: 500px;
+  margin-top: 400px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.19s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(39) {
+  margin-left: 567px;
+  margin-top: 464px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.195s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(40) {
+  margin-left: 536px;
+  margin-top: 218px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.2s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(41) {
+  margin-left: 1140px;
+  margin-top: 439px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.205s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(42) {
+  margin-left: 1063px;
+  margin-top: 108px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.21s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(43) {
+  margin-left: 347px;
+  margin-top: 40px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.215s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(44) {
+  margin-left: 158px;
+  margin-top: 579px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.22s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(45) {
+  margin-left: 662px;
+  margin-top: 429px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.225s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(46) {
+  margin-left: 1293px;
+  margin-top: 308px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.23s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(47) {
+  margin-left: 1278px;
+  margin-top: 50px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.235s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(48) {
+  margin-left: 1307px;
+  margin-top: 610px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.24s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(49) {
+  margin-left: 922px;
+  margin-top: 186px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.245s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(50) {
+  margin-left: 1294px;
+  margin-top: 287px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(51) {
+  margin-left: 337px;
+  margin-top: 280px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.255s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(52) {
+  margin-left: 946px;
+  margin-top: 318px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.26s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(53) {
+  margin-left: 938px;
+  margin-top: 35px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.265s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(54) {
+  margin-left: 1361px;
+  margin-top: 305px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.27s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(55) {
+  margin-left: 983px;
+  margin-top: 542px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.275s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(56) {
+  margin-left: 67px;
+  margin-top: 595px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.28s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(57) {
+  margin-left: 1128px;
+  margin-top: 293px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.285s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(58) {
+  margin-left: 1305px;
+  margin-top: 662px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.29s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(59) {
+  margin-left: 1398px;
+  margin-top: 571px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.295s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(60) {
+  margin-left: 712px;
+  margin-top: 119px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(61) {
+  margin-left: 856px;
+  margin-top: 472px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.305s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(62) {
+  margin-left: 1041px;
+  margin-top: 179px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.31s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(63) {
+  margin-left: 670px;
+  margin-top: 728px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.315s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(64) {
+  margin-left: 17px;
+  margin-top: 427px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.32s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(65) {
+  margin-left: 1124px;
+  margin-top: 749px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.325s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(66) {
+  margin-left: 1248px;
+  margin-top: 144px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.33s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(67) {
+  margin-left: 133px;
+  margin-top: 7px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.335s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(68) {
+  margin-left: 259px;
+  margin-top: 744px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.34s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(69) {
+  margin-left: 8px;
+  margin-top: 477px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.345s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(70) {
+  margin-left: 1018px;
+  margin-top: 508px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.35s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(71) {
+  margin-left: 811px;
+  margin-top: 124px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.355s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(72) {
+  margin-left: 467px;
+  margin-top: 210px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.36s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(73) {
+  margin-left: 1170px;
+  margin-top: 83px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.365s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(74) {
+  margin-left: 93px;
+  margin-top: 517px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.37s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(75) {
+  margin-left: 886px;
+  margin-top: 72px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.375s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(76) {
+  margin-left: 729px;
+  margin-top: 277px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.38s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(77) {
+  margin-left: 997px;
+  margin-top: 374px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.385s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(78) {
+  margin-left: 1222px;
+  margin-top: 317px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.39s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(79) {
+  margin-left: 212px;
+  margin-top: 454px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.395s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(80) {
+  margin-left: 1347px;
+  margin-top: 170px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.4s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(81) {
+  margin-left: 1278px;
+  margin-top: 500px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.405s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(82) {
+  margin-left: 772px;
+  margin-top: 637px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.41s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(83) {
+  margin-left: 1103px;
+  margin-top: 592px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.415s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(84) {
+  margin-left: 857px;
+  margin-top: 256px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.42s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(85) {
+  margin-left: 485px;
+  margin-top: 394px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.425s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(86) {
+  margin-left: 353px;
+  margin-top: 98px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.43s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(87) {
+  margin-left: 692px;
+  margin-top: 476px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.435s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(88) {
+  margin-left: 278px;
+  margin-top: 602px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.44s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(89) {
+  margin-left: 254px;
+  margin-top: 324px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.445s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(90) {
+  margin-left: 838px;
+  margin-top: 572px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.45s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(91) {
+  margin-left: 14px;
+  margin-top: 270px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.455s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(92) {
+  margin-left: 435px;
+  margin-top: 480px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.46s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(93) {
+  margin-left: 57px;
+  margin-top: 430px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.465s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(94) {
+  margin-left: 396px;
+  margin-top: 773px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.47s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(95) {
+  margin-left: 86px;
+  margin-top: 613px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.475s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(96) {
+  margin-left: 575px;
+  margin-top: 565px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.48s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(97) {
+  margin-left: 536px;
+  margin-top: 123px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.485s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(98) {
+  margin-left: 1253px;
+  margin-top: 205px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.49s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .star:nth-child(99) {
+  margin-left: 445px;
+  margin-top: 328px;
+  position: absolute;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  animation: shine 2s linear infinite;
+  animation-delay: 0.495s;
+}
+@keyframes shine {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.canvas .moon {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px 11px rgba(255, 255, 255, 0.2);
+}
+.canvas .scroll {
+  position: relative;
+  padding: 20px;
+  width: 50%;
+  min-width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: auto;
+  top: 50px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 50px 11px rgba(255, 255, 255, 0.05);
+}
+.canvas .scroll .title {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  font-family: inherit;
+  margin-bottom: 30px;
+}
+.canvas .scroll .title small {
+  display: block;
+  margin: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+.canvas .scroll .content {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  font-family: inherit;
+  max-width: 500px;
+}
+
+a {
+  color: #333;
+}
